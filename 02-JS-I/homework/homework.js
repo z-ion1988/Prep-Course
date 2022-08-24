@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4;g
+const nuevoModulo = 21 % 5 === 4;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -37,7 +37,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  suma = x + y
+  return suma
 }
 
 function resta(x, y) {
