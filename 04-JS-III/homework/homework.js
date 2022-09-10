@@ -222,16 +222,7 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  array = [1]
-  for (var i = 0; i < numero.length;i++){
-  array = numero[i]+2
-  if (array !== 10)
-  array.push(numero[i])
-  if(array ===10)
-  break
-   return "Se interrumpió la ejecución"}
-  if (array.length===10)
-  return array
+  
 }
 
 
